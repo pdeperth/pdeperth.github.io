@@ -1,7 +1,11 @@
 // create element for copy button in code blocks
 var codeBlocks = document.querySelectorAll('pre');
 codeBlocks.forEach(function (codeBlock) {
+<<<<<<< HEAD
   if ((codeBlock.querySelector('pre:not(.lineno)') || codeBlock.querySelector('code')) && codeBlock.querySelector('code:not(.language-mermaid)')) {
+=======
+  if (codeBlock.querySelector('pre:not(.lineno)') || codeBlock.querySelector('code')) {
+>>>>>>> 8c22196 (Initial commit)
     // create copy button
     var copyButton = document.createElement('button');
     copyButton.className = 'copy';
