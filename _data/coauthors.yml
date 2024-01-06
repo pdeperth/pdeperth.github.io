@@ -1,34 +1,26 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Pointcheval":
+  - firstname: ["David", "D.", "D. P.", "David Pointcheval"]
+    url: https://www.di.ens.fr/david.pointcheval/index.php
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Fiore":
+  - firstname: ["Dario", "D.", "D. F.", "Dario Fiore"]
+    url: https://www.dariofiore.it/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Kolonelos":
+  - firstname: ["Dimitris", "D.", "D. K.", "Dimitris Kolonelos"]
+    url: https://dimkolonelos.github.io/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Nitulescu":
+  - firstname: ["Anca", "A.", "A. N.", "Anca Nitulescu"]
+    url: https://www.di.ens.fr/~nitulesc/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Izabachène":
+  - firstname: ["Malika", "M.", "M. I.", "Malika Izabachène"]
+    url: https://izama.github.io/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Brézot":
+  - firstname: ["Théophile", "T.", "T. B.", "Théophile Brézot"]
+    url: https://github.com/tbrezot
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck

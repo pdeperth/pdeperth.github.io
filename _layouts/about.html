@@ -47,22 +47,43 @@ layout: default
       {{ content }}
     </div>
 
+    <h2> </h2>
+    <p></p> <!-- added for a bigger gap before the first title -->
+
     <!-- News -->
     {% if page.news and site.announcements.enabled -%}
     <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
     {%- include news.html limit=true %}
     {%- endif %}
 
+    <!-- Selected papers -->
+    {% if page.selected_papers -%}
+    <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Recent Publications</a></h2>
+    {%- include selected_papers.html %}
+    {%- endif %}
+
+    <!-- Talks -->
+    {% if page.talks -%}
+    <h2><a href="{{ '/talks/' | relative_url }}" style="color: inherit;">Talks</a></h2>
+    {%- include talks.html %}
+    {%- endif %}
+
     <!-- Latest posts -->
     {% if page.latest_posts -%}
-    <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+    <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest Posts</a></h2>
     {%- include latest_posts.html %}
     {%- endif %}
 
-    <!-- Selected papers -->
-    {% if page.selected_papers -%}
-    <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
-    {%- include selected_papers.html %}
+    <!-- Teaching -->
+    {% if page.teaching -%}
+    <h2><a href="{{ '/teaching/' | relative_url }}" style="color: inherit;">teaching</a></h2>
+    {%- include page.html %}
+    {%- endif %}
+
+    <!-- Reviewing -->
+    {% if page.reviewing -%}
+    <h2><a href="{{ '/reviewing/' | relative_url }}" style="color: inherit;">reviewing</a></h2>
+    {%- include reviewing.html %}
     {%- endif %}
 
     <!-- Social -->

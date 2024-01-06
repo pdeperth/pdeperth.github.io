@@ -1,0 +1,39 @@
+---
+layout: page
+permalink: /talks/
+title: Talks
+description:
+nav: true
+nav_order: 2
+---
+
+<div class="news">
+    {% if site.talks != blank -%}
+    {%- assign talks_size = site.talks | size -%}
+    <div class="table-responsive" {% if include.limit and site.announcements.scrollable and talks_size> 3
+        %}style="max-height: 80vw"{% endif %}>
+        <table class="table table-sm table-borderless">
+            {%- assign talks = site.talks | reverse -%}
+            <!-- {% if include.limit and site.announcements.limit %}
+            {% assign talks_limit = site.announcements.limit %}
+            {% else %} -->
+            {% assign talks_limit = talks_size %}
+            {% endif %}
+            {% for item in talks limit: talks_limit %}
+            <tr>
+                <th scope="row" style="width: 20%">{{ item.date | date: "%b %-d, %Y" }}</th>
+                <td>
+                    {% if item.inline -%}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                    {%- else -%}
+                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {%- endif %}
+                </td>
+            </tr>
+            {%- endfor %}
+        </table>
+    </div>
+    {%- else -%}
+    <p>No new talks.</p>
+    {%- endif %}
+</div>
