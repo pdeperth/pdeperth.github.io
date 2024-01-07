@@ -7,6 +7,7 @@ nav: true
 nav_order: 6
 ---
 
+
 <div class="news">
     {% if site.reviewing != blank -%}
     {%- assign reviewing_size = site.reviewing | size -%}
