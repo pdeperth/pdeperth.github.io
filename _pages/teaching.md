@@ -2,11 +2,39 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-Organize your courses by years, topics, or universities, however you like!
+<div class="news">
+    {% if site.teaching != blank -%}
+    {%- assign teaching_size = site.teaching | size -%}
+    <div class="table-responsive" {% if include.limit and site.announcements.scrollable and teaching_size> 3
+        %}style="max-height: 80vw"{% endif %}>
+        <table class="table table-sm table-borderless">
+            {%- assign teaching = site.teaching | reverse -%}
+            <!-- {% if include.limit and site.announcements.limit %}
+            {% assign teaching_limit = site.announcements.limit %}
+            {% else %} -->
+            {% assign teaching_limit = teaching_size %}
+            <!-- {% endif %} -->
+            {% for item in teaching limit: teaching_limit %}
+            <tr>
+                <th scope="row" style="width: 20%">{{ item.academic_year | date: "%Y-%Y" }}, {{item.semester}}</th>
+                <td>
+                    {% if item.inline -%}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                    {%- else -%}
+                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {%- endif %}
+                </td>
+            </tr>
+            {%- endfor %}
+        </table>
+    </div>
+    {%- else -%}
+    <p>No new courses.</p>
+    {%- endif %}
+</div>

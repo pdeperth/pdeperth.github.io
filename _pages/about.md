@@ -16,8 +16,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 news: false  # includes a list of news items
 talks: true
 latest_posts: true  # includes a list of the newest posts
-teaching: false
-reviewing: false
+teaching: true
+reviewing: true
 social: true  # includes social icons at the bottom of the page
 ---
 

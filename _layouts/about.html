@@ -67,6 +67,8 @@ layout: default
     <h2><a href="{{ '/talks/' | relative_url }}" style="color: inherit;">Talks</a></h2>
     {%- include talks.html %}
     {%- endif %}
+    <h2> </h2>
+    <p></p> <!-- added for a bigger gap before the next section -->
 
     <!-- Latest posts -->
     {% if page.latest_posts -%}
@@ -76,13 +78,13 @@ layout: default
 
     <!-- Teaching -->
     {% if page.teaching -%}
-    <h2><a href="{{ '/teaching/' | relative_url }}" style="color: inherit;">teaching</a></h2>
-    {%- include page.html %}
+    <h2><a href="{{ '/teaching/' | relative_url }}" style="color: inherit;">Teaching</a></h2>
+    {%- include teaching.html %}
     {%- endif %}
 
     <!-- Reviewing -->
     {% if page.reviewing -%}
-    <h2><a href="{{ '/reviewing/' | relative_url }}" style="color: inherit;">reviewing</a></h2>
+    <h2><a href="{{ '/reviewing/' | relative_url }}" style="color: inherit;">Reviewing</a></h2>
     {%- include reviewing.html %}
     {%- endif %}
 

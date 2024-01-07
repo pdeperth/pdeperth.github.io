@@ -73,7 +73,7 @@ mastodon_username: # your mastodon instance+username in the format instance.tld/
 linkedin_username: paola-de-perthuis-659a04111 # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: Paola de Perthuis # your Google Scholar ID
-semanticscholar_id: # your Semantic Scholar ID
+semanticscholar_id: Paola-de-Perthuis/2131432774 # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0000-0002-4222-522X # your ORCID ID
 medium_username: # your Medium username
@@ -176,6 +176,16 @@ collections:
       layout: post
     output: true
     permalink: /talks/:path/
+  teaching:
+    defaults:
+      layout: post
+    output: true
+    permalink: /teaching/:path/
+  reviewing:
+    defaults:
+      layout: post
+    output: true
+    permalink: /reviewing/:path/
 
 announcements:
   enabled: true
@@ -268,8 +278,8 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
-display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
+display_tags: ['Key-Encapsulation-Mechanism', 'Functional-Encryption'] #['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
+display_categories: ['videos', 'blog-posts'] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
