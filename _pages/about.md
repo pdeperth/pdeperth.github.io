@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p>École normale supérieure & Cosmian;</p>
     <p>Paris, France.</p>
+    <p><a href="#social">Contact</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 news: false  # includes a list of news items
@@ -22,7 +23,8 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Completing my PhD in cryptography at the *<a href='https://www.ens.psl.eu/'>école normale supérieure</a>* (ENS) of Paris and <a href="https://cosmian.com/">Cosmian</a>, advised by Pr. <a href="https://www.di.ens.fr/david.pointcheval/index.php">David Pointcheval</a>.
-I was previously a Research Engineer in the Polynomial Systems (<a href="https://www-polsys.lip6.fr/">PolSys</a>) team of the <a href="https://www.lip6.fr/">LIP6</a> Computer Science Department of Sorbonne université (Paris). I studied General Engineering and Artificial Intelligence at the *<a href="https://www.ec-lyon.fr/">école Centrale</a>* of Lyon, after two years of *<a href="https://www.stanislas.fr/unite-pedagogique/classes-preparatoires/filieres/cpge-scientifiques/">classes préparatoires</a>* in Maths, Physics and Engineering.
+I was previously a Research Engineer in the Polynomial Systems (<a href="https://www-polsys.lip6.fr/">PolSys</a>) team of the <a href="https://www.lip6.fr/">LIP6</a> Computer Science Department of Sorbonne université (Paris). I studied General Engineering and Data Science at the *<a href="https://www.ec-lyon.fr/">école Centrale</a>* of Lyon, after two years of *<a href="https://www.stanislas.fr/unite-pedagogique/classes-preparatoires/filieres/cpge-scientifiques/">classes préparatoires</a>* in Maths, Physics and Engineering.
+I have worked on Generative Adversarial Networks (GANs) to produce cloud databases with <a href="https://www.researchgate.net/profile/Sidonie-Lefebvre">Sidonie Lefebvre</a> at the French National Aerospace Lab (<a href="https://www.onera.fr/en">ONERA</a>) in Palaiseau, and on Data Mining an Processing with <a href="https://ch.linkedin.com/in/didierorel">Didier Orel</a> at <a href="https://www.tamedia.ch/fr/">Tamedia</a> in Lausanne, namely working on the <a href="https://offshoreleaks.icij.org/pages/credits">Paradise Papers</a> in partnership with the <a href="https://offshoreleaks.icij.org/">ICIJ</a>.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `assets/img/` folder. -->
 
