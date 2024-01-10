@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>École normale supérieure & Cosmian;</p>
     <p>Paris, France.</p>
-    <p><a href="#social">Contact</a></p>
+    <!-- <p><a href="#social">Contact</a></p> -->
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 news: false  # includes a list of news items
