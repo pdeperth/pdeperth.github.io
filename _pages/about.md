@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>École normale supérieure & Cosmian;</p>
-    <p>Paris, France.</p>
+    <!-- <p>École normale supérieure & Cosmian;</p>
+    <p>Paris, France.</p> -->
     <!-- <p><a href="#social">Contact</a></p> -->
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
