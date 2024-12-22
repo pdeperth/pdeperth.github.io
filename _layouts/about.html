@@ -62,19 +62,7 @@ layout: default
     {%- include selected_papers.html %}
     {%- endif %}
 
-    <!-- Talks -->
-    {% if page.talks -%}
-    <h2><a href="{{ '/talks/' | relative_url }}" style="color: inherit;">Talks</a></h2>
-    {%- include talks.html %}
-    {%- endif %}
-    <h2> </h2>
-    <p></p> <!-- added for a bigger gap before the next section -->
 
-    <!-- Latest posts -->
-    {% if page.latest_posts -%}
-    <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest Posts</a></h2>
-    {%- include latest_posts.html %}
-    {%- endif %}
 
     <!-- Teaching -->
     {% if page.teaching -%}
@@ -86,6 +74,20 @@ layout: default
     {% if page.reviewing -%}
     <h2><a href="{{ '/reviewing/' | relative_url }}" style="color: inherit;">Reviewing</a></h2>
     {%- include reviewing.html %}
+    {%- endif %}
+
+    <!-- Talks -->
+    {% if page.talks -%}
+    <h2><a href="{{ '/talks/' | relative_url }}" style="color: inherit;">Talks</a></h2>
+    {%- include talks.html limit=true %}
+    {%- endif %}
+    <h2> </h2>
+    <p></p> <!-- added for a bigger gap before the next section -->
+
+    <!-- Latest posts -->
+    {% if page.latest_posts -%}
+    <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest Posts</a></h2>
+    {%- include latest_posts.html %}
     {%- endif %}
 
     <!-- Social -->
