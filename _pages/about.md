@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:  Researching on Cryptography at the <a href='https://www.cwi.nl/en/'>Centrum Wiskunde en Informatica (CWI)</a> in Amsterdam (Netherlands).  # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:  Researching on Cryptology at the <a href='https://www.cwi.nl/en/'>Centrum Wiskunde en Informatica (CWI)</a> in Amsterdam (Netherlands).  # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: left
