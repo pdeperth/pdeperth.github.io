@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Predicting Module-Lattice Reduction [DEP25] for the Charm workshop at the institut de mathématiques de Brodeaux (Bordeaux, France).
+Predicting Module-Lattice Reduction [DEP25] for the Charm workshop at the institut de mathématiques de Bordeaux (Bordeaux, France).
