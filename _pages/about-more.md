@@ -6,8 +6,8 @@ nav: true
 nav_order: 7
 # cv_pdf: example_pdf.pdf
 description: About
-toc:
-  sidebar: left
+# toc:
+#   sidebar: left
 ---
 
 Completing a postdoc in Cryptology at the *<a href='https://www.cwi.nl/en/'>Centrum Wiskunde en Informatica (CWI)</a>*, I defended my PhD at the *<a href='https://www.ens.psl.eu/'>école normale supérieure</a>* (ENS) of Paris in 2024, advised by Pr. <a href="https://www.di.ens.fr/david.pointcheval/index.php">David Pointcheval</a>.
