@@ -12,7 +12,7 @@
             <!-- {% endif %} -->
             {% for item in awards limit: awards_limit %}
             <tr>
-                <th scope="row" style="width: 20%">{{ item.academic_year | date: "%Y" }}, {{item.year}}</th>
+                <!-- <th scope="row" style="width: 20%">{{ item.academic_year | date: "%Y" }}, {{item.year}}</th> -->
                 <td>
                     {% if item.inline -%}
                     {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
