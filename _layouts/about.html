@@ -65,7 +65,17 @@ layout: default
     {%- include selected_papers.html %}
     {%- endif %}
 
+    <!-- Awards -->
+    {% if page.awards -%}
+    <h2><a href="{{ '/awards/' | relative_url }}" style="color: inherit;">Grant</a></h2>
+    {%- include awards.html %}
+    {%- endif %}
 
+    <!-- Students -->
+    {% if page.students -%}
+    <h2><a href="{{ '/students/' | relative_url }}" style="color: inherit;">Student</a></h2>
+    {%- include students.html %}
+    {%- endif %}
 
     <!-- Teaching -->
     {% if page.teaching -%}

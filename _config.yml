@@ -71,7 +71,7 @@ github_username: pdeperth # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: paola-de-perthuis-659a04111 # your LinkedIn user name
+linkedin_username: # paola-de-perthuis-659a04111 # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: Paola de Perthuis # your Google Scholar ID
 semanticscholar_id: Paola-de-Perthuis/2131432774 # your Semantic Scholar ID
@@ -184,11 +184,21 @@ collections:
       layout: post
     output: true
     permalink: /teaching/:path/
+  students:
+    defaults:
+      layout: post
+    output: true
+    permalink: /students/:path/
   reviewing:
     defaults:
       layout: post
     output: true
     permalink: /reviewing/:path/
+  awards:
+    defaults:
+      layout: post
+    output: true
+    permalink: /awards/:path/
 
 announcements:
   enabled: true

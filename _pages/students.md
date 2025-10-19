@@ -1,0 +1,40 @@
+---
+layout: page
+permalink: /students/
+title: Students
+description:
+nav: true
+nav_order: 4
+---
+
+
+<div class="news">
+    {% if site.students != blank -%}
+    {%- assign students_size = site.students | size -%}
+    <div class="table-responsive" {% if include.limit and site.announcements.scrollable and students_size> 0
+        %}style="max-height: 80vw"{% endif %}>
+        <table class="table table-sm table-borderless">
+            {%- assign students = site.students | reverse -%}
+            <!-- {% if include.limit and site.announcements.limit %}
+            {% assign students_limit = site.announcements.limit %}
+            {% else %} -->
+            {% assign students_limit = students_size %}
+            <!-- {% endif %} -->
+            {% for item in students limit: students_limit %}
+            <tr>
+                <!-- <th scope="row" style="width: 20%">{{ item.student | date: "%Y-%Y" }}, {{item.semester}}</th> -->
+                <td>
+                    {% if item.inline -%}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                    {%- else -%}
+                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {%- endif %}
+                </td>
+            </tr>
+            {%- endfor %}
+        </table>
+    </div>
+    {%- else -%}
+    <p>No new students.</p>
+    {%- endif %}
+</div>

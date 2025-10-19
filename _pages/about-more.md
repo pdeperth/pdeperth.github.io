@@ -3,7 +3,7 @@ layout: about # cv
 permalink: /about-more/ # /cv/
 title: About
 nav: true
-nav_order: 7
+nav_order: 9
 # cv_pdf: example_pdf.pdf
 description: About
 # toc:
