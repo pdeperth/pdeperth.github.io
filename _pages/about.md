@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Home
+title: # Home
 permalink: /
 subtitle:  Postdoctoral researcher in Cryptology for the <a href='https://www.cwi.nl/en/'>Centrum Wiskunde en Informatica (CWI)</a>.
 #  Amsterdam (Netherlands).  # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
