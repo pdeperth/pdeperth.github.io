@@ -8,6 +8,9 @@ nav: true
 nav_order: 2
 ---
 <!-- _pages/publications.md -->
+ <p style="font-size: 8pt;">Note: in Cryptology, authors are listed in alphabetical order; in my case with a
+    <i>P</i> for <i>Perthuis</i>.
+  </p>
 <div class="publications">
 
     {% bibliography -f {{ site.scholar.bibliography }} %}
