@@ -10,12 +10,13 @@
   month       = {October},
   selected    = {true},
   bibtex_show = {true},
-  abbr        = {PerTre25},
+  abbr        = {EPR:PerTre25},
   abstract    = {The primal attack reduces Learning with Errors     (LWE) to the unique Shortest Vector Problem (uSVP), and then applies lattice reduction such as BKZ to solve the latter. Estimating the cost of the attack is required to evaluate the security of constructions based on LWE.
                  
                  Existing fine-grained estimators for the cost of the primal attack, due to Dachman-Soled--Ducas--Gong--Rossi (CRYPTO 2020) and Postlethwaite--Virdia (PKC 2021), differ from experimental data as they implicitly assume the unique shortest vector is resampled several times during the attack, changing its length. Furthermore, these estimators consider only the first two moments of the LWE secret and error, and therefore do not differentiate between distinct centred distributions with equal variances. We remedy both issues by initially fixing the short vector's length, and later integrating over its distribution. We provide extensive experimental evidence that our estimators are more accurate and faithfully capture the behaviour of different LWE distributions.
                  
-                 In the case of Module-LWE, lattice reduction utilising the module structure could lead to cheaper attacks. We build upon the analysis of module lattice reduction by Ducas--Engelberts--Perthuis (Asiacrypt 2025), providing a simulator for Module-BKZ generalising the BKZ simulator of Chen--Nguyen (Asiacrypt 2011). We design estimators for a module variant of the primal attack, supporting our analysis with experimental evidence. Asymptotically, we show the module primal attack over a degree $d$ number field $K$ has a reduced cost, resulting in a subexponential gain, whenever the discriminant $\Delta_K$ satisfies $\abs{\Delta_K} < d^d$, one such case being non-power-two cyclotomics.}
+                 In the case of Module-LWE, lattice reduction utilising the module structure could lead to cheaper attacks. We build upon the analysis of module lattice reduction by Ducas--Engelberts--Perthuis (Asiacrypt 2025), providing a simulator for Module-BKZ generalising the BKZ simulator of Chen--Nguyen (Asiacrypt 2011). We design estimators for a module variant of the primal attack, supporting our analysis with experimental evidence. Asymptotically, we show the module primal attack over a degree $d$ number field $K$ has a reduced cost, resulting in a subexponential gain, whenever the discriminant $\Delta_K$ satisfies $\abs{\Delta_K} < d^d$, one such case being non-power-two cyclotomics.},
+  website     = {https://eprint.iacr.org/2025/2195}
 }
 
 @inproceedings{AC:DucEngPer25,
