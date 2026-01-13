@@ -3,12 +3,31 @@
 
 % @string{aps = {American Physical Society,}}
 
+@inproceedings{PQC:PerTre25,
+  author      = {{Paola de Perthuis} and Filip Trenki\'c},
+  title       = {Refined Modelling of the Primal Attack, and Variants Against Module-Learning With Errors},
+  year        = {2026},
+  month       = {April},
+  selected    = {true},
+  bibtex_show = {true},
+  abbr        = {PQC:PerTre25},
+  abstract    = {The primal attack reduces Learning with Errors     (LWE) to the unique Shortest Vector Problem (uSVP), and then applies lattice reduction such as BKZ to solve the latter. Estimating the cost of the attack is required to evaluate the security of constructions based on LWE.
+                 
+                 Existing fine-grained estimators for the cost of the primal attack, due to Dachman-Soled--Ducas--Gong--Rossi (CRYPTO 2020) and Postlethwaite--Virdia (PKC 2021), differ from experimental data as they implicitly assume the unique shortest vector is resampled several times during the attack, changing its length. Furthermore, these estimators consider only the first two moments of the LWE secret and error, and therefore do not differentiate between distinct centred distributions with equal variances. We remedy both issues by initially fixing the short vector's length, and later integrating over its distribution. We provide extensive experimental evidence that our estimators are more accurate and faithfully capture the behaviour of different LWE distributions.
+                 
+                 In the case of Module-LWE, lattice reduction utilising the module structure could lead to cheaper attacks. We build upon the analysis of module lattice reduction by Ducas--Engelberts--Perthuis (Asiacrypt 2025), providing a simulator for Module-BKZ generalising the BKZ simulator of Chen--Nguyen (Asiacrypt 2011). We design estimators for a module variant of the primal attack, supporting our analysis with experimental evidence. Asymptotically, we show the module primal attack over a degree $d$ number field $K$ has a reduced cost, resulting in a subexponential gain, whenever the discriminant $\Delta_K$ satisfies $\abs{\Delta_K} < d^d$, one such case being non-power-two cyclotomics.},
+  website     = {https://eprint.iacr.org/2025/2195},
+  journal     = {PQCrypto},
+  booktitle   = {Advances in Cryptology - {PQCrypto} 2026 - 17th International Conference on Post-Quantum Cryptology, Saint-Malo, France, April 14-16, 2026, Proceedings}
+}
+
+
 @unpublished{EPRINT:PerTre25,
   author      = {{Paola de Perthuis} and Filip Trenki\'c},
   title       = {Refined Modelling of the Primal Attack, and Variants Against Module-Learning With Errors},
   year        = {2025},
   month       = {October},
-  selected    = {true},
+  selected    = {false},
   bibtex_show = {true},
   abbr        = {EPR:PerTre25},
   abstract    = {The primal attack reduces Learning with Errors     (LWE) to the unique Shortest Vector Problem (uSVP), and then applies lattice reduction such as BKZ to solve the latter. Estimating the cost of the attack is required to evaluate the security of constructions based on LWE.
@@ -95,6 +114,7 @@
   school   = {École Normale Supérieure de Paris},
   title    = {Calculs sous garanties et chiffrement à clé publique extensible dans des contextes non interactifs},
   year     = {2024},
+  abbr     = {Perthuis24},
   abstract = {Les constructions avancées de chiffrement à clé publique élargissent les horizons d'utilisation des primitives cryptographiques, permettant entre autres la réalisation de calculs sur des données inconnues cachées dans des chiffrés, ou d'étendre des fonctionnalités de chiffrement à des systèmes comprenant de nombreuses personnes de manière efficace.
               De plus, lorsque les entités prenant part à un protocole cryptographique ne sont pas systématiquement synchrones ou disponibles en même temps, l'élaboration de techniques non-interactives devient plus avantageuse ; en outre, lors d'un déploiement pour une grande communauté, l'évitement d'une solution avec une entité centrale, en plus de ne pas nécessiter sa disponibilité constante, diminue son pouvoir au sein du
               système.
