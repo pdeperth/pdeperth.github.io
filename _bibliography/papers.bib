@@ -3,6 +3,19 @@
 
 % @string{aps = {American Physical Society,}}
 
+@inproceedings{PKC:PerPet26,
+  author      = {{Paola de Perthuis} and Thomas Peters},
+  title       = {Post-Quantum Privacy for Traceable Receipt-Free Encryption},
+  journal     = {Public-Key Cryptography 2026},
+  year        = {2026},
+  month       = may,
+  website     = {https://eprint.iacr.org/2024/2087},
+  bibtex_show = {true},
+  selected    = {true},
+  abbr        = {PKC:PerPet26}
+}
+
+
 @inproceedings{PQC:PerTre26,
   author      = {{Paola de Perthuis} and Filip Trenki\'c},
   title       = {Refined Modelling of the Primal Attack, and Variants Against Module-Learning With Errors},
@@ -22,21 +35,6 @@
 }
 
 
-@unpublished{EPRINT:PerTre25,
-  author      = {{Paola de Perthuis} and Filip Trenki\'c},
-  title       = {Refined Modelling of the Primal Attack, and Variants Against Module-Learning With Errors},
-  year        = {2025},
-  month       = {October},
-  selected    = {false},
-  bibtex_show = {true},
-  abbr        = {EPR:PerTre25},
-  abstract    = {The primal attack reduces Learning with Errors     (LWE) to the unique Shortest Vector Problem (uSVP), and then applies lattice reduction such as BKZ to solve the latter. Estimating the cost of the attack is required to evaluate the security of constructions based on LWE.
-                 
-                 Existing fine-grained estimators for the cost of the primal attack, due to Dachman-Soled--Ducas--Gong--Rossi (CRYPTO 2020) and Postlethwaite--Virdia (PKC 2021), differ from experimental data as they implicitly assume the unique shortest vector is resampled several times during the attack, changing its length. Furthermore, these estimators consider only the first two moments of the LWE secret and error, and therefore do not differentiate between distinct centred distributions with equal variances. We remedy both issues by initially fixing the short vector's length, and later integrating over its distribution. We provide extensive experimental evidence that our estimators are more accurate and faithfully capture the behaviour of different LWE distributions.
-                 
-                 In the case of Module-LWE, lattice reduction utilising the module structure could lead to cheaper attacks. We build upon the analysis of module lattice reduction by Ducas--Engelberts--Perthuis (Asiacrypt 2025), providing a simulator for Module-BKZ generalising the BKZ simulator of Chen--Nguyen (Asiacrypt 2011). We design estimators for a module variant of the primal attack, supporting our analysis with experimental evidence. Asymptotically, we show the module primal attack over a degree $d$ number field $K$ has a reduced cost, resulting in a subexponential gain, whenever the discriminant $\Delta_K$ satisfies $\abs{\Delta_K} < d^d$, one such case being non-power-two cyclotomics.},
-  website     = {https://eprint.iacr.org/2025/2195}
-}
 
 @inproceedings{AC:DucEngPer25,
   author      = {Léo Ducas and Lynn Engelberts and {Paola de Perthuis}},
@@ -50,34 +48,6 @@
   abbr        = {AC:DEP25},
   website     = {https://eprint.iacr.org/2025/1904}
 }
-
-@unpublished{EPRINT:DucEngPer25,
-  author       = {Léo Ducas and Lynn Engelberts and Paola de Perthuis},
-  title        = {Predicting Module-Lattice Reduction},
-  howpublished = {Cryptology {ePrint} Archive, Paper 2025/1904},
-  year         = {2025},
-  journal      = {Cryptology {ePrint} Archive, Paper 2025/1904},
-  month        = {},
-  selected     = {false},
-  bibtex_show  = {true},
-  abbr         = {EPR:DEP25},
-  website      = {https://eprint.iacr.org/2025/1904}
-}
-
-@unpublished{ARX:DucEngPer25,
-  title         = {Predicting Module-Lattice Reduction},
-  author        = {Léo Ducas and Lynn Engelberts and Paola de Perthuis},
-  year          = {2025},
-  month         = {},
-  eprint        = {2510.10540},
-  archiveprefix = {arXiv},
-  journal       = {arXiv},
-  primaryclass  = {cs.CR},
-  website       = {https://arxiv.org/abs/2510.10540},
-  bibtex_show   = {true},
-  abbr          = {ARX:DEP25}
-}
-
 
 @inproceedings{ESORICS:BHPP25,
   author      = {Théophile Brézot and Chloé Hébant and {Paola de Perthuis} and David Pointcheval},
@@ -96,18 +66,6 @@
   website     = {https://eprint.iacr.org/2025/544}
 }
 
-@unpublished{EPRINT:PerPet24,
-  author       = {{Paola de Perthuis} and Thomas Peters},
-  title        = {Post-Quantum Privacy for Traceable Receipt-Free Encryption},
-  howpublished = {Cryptology {ePrint} Archive, Paper 2024/2087},
-  journal      = {Cryptology {ePrint} Archive, Paper 2024/2087},
-  year         = {2024},
-  month        = {},
-  website      = {https://eprint.iacr.org/2024/2087},
-  bibtex_show  = {true},
-  selected     = {true},
-  abbr         = {EPR:PP24}
-}
 
 @phdthesis{Perthuis24,
   author      = {{Paola de Perthuis}},
@@ -130,6 +88,28 @@
                  Ensuite, deux autres permettront de rendre utilisables en pratique des protocoles de chiffrement au sein de grandes structures, avec des tailles et temps de calculs effectifs efficaces, au sein de modèles de sécurité conformes aux exigences actuelles.},
   month       = {},
   bibtex_show = {true}
+}
+
+
+
+@article{IEEE:KHCPM24,
+  author      = {Md. Rezaul Karim and
+                 Felix Hermsen and
+                 Sisay Adugna Chala and
+                 {Paola de Perthuis} and
+                 Avikarsha Mandal},
+  title       = {Scalable Semi-Supervised Graph Learning Techniques for Anti Money
+                 Laundering},
+  journal     = {{IEEE} Access},
+  volume      = {12},
+  pages       = {50012--50029},
+  year        = {2024},
+  month       = {},
+  website     = {https://doi.org/10.1109/ACCESS.2024.3383784},
+  doi         = {10.1109/ACCESS.2024.3383784},
+  timestamp   = {Tue, 16 Apr 2024 13:57:09 +0200},
+  bibtex_show = {true},
+  abbr        = {IEEE:KHCPM24}
 }
 
 
@@ -158,17 +138,6 @@
   abbr        = {AC:FKP23}
 }
 
-@unpublished{EPRINT:FioKolPer23,
-  author       = {Dario Fiore and Dimitris Kolonelos and {Paola de Perthuis}},
-  title        = {Cuckoo Commitments: Registration-Based Encryption and Key-Value Map Commitments for Large Spaces},
-  howpublished = {Cryptology {ePrint} Archive, Paper 2023/1389},
-  year         = {2023},
-  journal      = {Cryptology {ePrint} Archive, Paper 2023/1389},
-  month        = {},
-  bibtex_show  = {true},
-  abbr         = {EPR:FKP23},
-  website      = {https://eprint.iacr.org/2023/1389}
-}
 
 @inproceedings{ESORICS:BrePerPoi23,
   author      = {Théophile Brézot and
@@ -199,18 +168,6 @@
   website     = {https://eprint.iacr.org/2023/836}
 }
 
-@unpublished{EPRINT:BrePerPoi23,
-  author       = {Théophile Brézot and {Paola de Perthuis} and David Pointcheval},
-  title        = {Covercrypt: an Efficient Early-Abort {KEM} for Hidden Access Policies with Traceability from the {DDH} and {LWE}},
-  howpublished = {Cryptology {ePrint} Archive, Paper 2023/836},
-  journal      = {Cryptology {ePrint} Archive, Paper 2023/836},
-  year         = {2023},
-  month        = {},
-  bibtex_show  = {true},
-  abbr         = {EPR:BPP23},
-  website      = {https://eprint.iacr.org/2023/836}
-}
-
 @inproceedings{CCS:PerPoi22,
   author      = {{Paola de Perthuis} and
                  David Pointcheval},
@@ -233,7 +190,7 @@
   selected    = {true},
   bibtex_show = {true},
   website     = {https://eprint.iacr.org/2022/441},
-  abbr        = {CCS:PP22}
+  abbr        = {CCS:PerPoi22}
 }
 
 
@@ -260,80 +217,3 @@
   abbr        = {SCN:INPP22}
 }
 
-
-@unpublished{EPRINT:PerPoi22,
-  author       = {{Paola de Perthuis} and
-                  David Pointcheval},
-  title        = {Two-Client Inner-Product Functional Encryption, with an Application to Money-Laundering Detection},
-  year         = 2022,
-  month        = {},
-  howpublished = {Cryptology ePrint Archive, Report 2022/441},
-  journal      = {Cryptology ePrint Archive, Report 2022/441},
-  website      = {https://eprint.iacr.org/2022/441},
-  bibtex_show  = {true},
-  abbr         = {EPR:PP22}
-}
-
-@unpublished{EPRINT:INPP21,
-  author       = {Malika Izabach{\`e}ne and
-                  Anca Nitulescu and
-                  {Paola de Perthuis} and
-                  David Pointcheval},
-  title        = {{MyOPE}: Malicious {securitY} for Oblivious Polynomial Evaluation},
-  year         = 2021,
-  month        = {},
-  howpublished = {Cryptology ePrint Archive, Report 2021/1291},
-  journal      = {Cryptology ePrint Archive, Report 2021/1291},
-  website      = {https://eprint.iacr.org/2021/1291},
-  bibtex_show  = {true},
-  abbr         = {EPR:INPP21}
-}
-
-
-@unpublished{ARXIV:KHCPM23,
-  title         = {Catch Me If You Can: Semi-supervised Graph Learning for Spotting Money Laundering},
-  author        = {Md. Rezaul Karim and Felix Hermsen and Sisay Adugna Chala and {Paola de Perthuis} and Avikarsha Mandal},
-  year          = {2023},
-  month         = {},
-  eprint        = {2302.11880},
-  journal       = {arXiv},
-  archiveprefix = {arXiv},
-  primaryclass  = {cs.AI},
-  bibtex_show   = {true},
-  abbr          = {ARX:KHCPM23}
-}
-
-
-
-@unpublished{EPRINT:BHPP25,
-  author       = {Théophile Brézot and Chloé Hébant and {Paola de Perthuis} and David Pointcheval},
-  title        = {Security Analysis of Covercrypt: A Quantum-Safe Hybrid Key Encapsulation Mechanism for Hidden Access Policies},
-  howpublished = {Cryptology {ePrint} Archive, Paper 2025/544},
-  journal      = {Cryptology {ePrint} Archive, Paper 2025/544},
-  year         = {2025},
-  month        = {},
-  website      = {https://eprint.iacr.org/2025/544},
-  bibtex_show  = {true},
-  abbr         = {EPR:BHPP25}
-}
-
-
-@article{IEEE:KHCPM24,
-  author      = {Md. Rezaul Karim and
-                 Felix Hermsen and
-                 Sisay Adugna Chala and
-                 {Paola de Perthuis} and
-                 Avikarsha Mandal},
-  title       = {Scalable Semi-Supervised Graph Learning Techniques for Anti Money
-                 Laundering},
-  journal     = {{IEEE} Access},
-  volume      = {12},
-  pages       = {50012--50029},
-  year        = {2024},
-  month       = {},
-  website     = {https://doi.org/10.1109/ACCESS.2024.3383784},
-  doi         = {10.1109/ACCESS.2024.3383784},
-  timestamp   = {Tue, 16 Apr 2024 13:57:09 +0200},
-  bibtex_show = {true},
-  abbr        = {IEEE:KHCPM24}
-}
