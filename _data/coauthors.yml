@@ -18,6 +18,10 @@
   - firstname: ["Anca", "A.", "A. N.", "Anca Nitulescu"]
     url: https://www.di.ens.fr/~nitulesc/
 
+"Noorden":
+  - firstname: ["Chris", "C.", "C. N.", "Chris van Noorden"]
+    url: https://www.cwi.nl/en/people/chris-van-noorden/
+
 "Izabachène":
   - firstname: ["Malika", "M.", "M. I.", "Malika Izabachène"]
     url: https://izama.github.io/
