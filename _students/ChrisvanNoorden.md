@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Chris van Noorden (two-semester master internship, 2025-2026).
+Chris van Noorden (two-semester master thesis internship, 2025-2026), full supervision.
