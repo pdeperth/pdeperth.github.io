@@ -10,7 +10,10 @@ nav_order: 2
 <!-- _pages/publications.md -->
  <p style="font-size: 8pt;">Note: in Cryptology, authors are listed in alphabetical order; in my case with a
     <i>P</i> for <i>Perthuis</i>.
-  </p>
+  <!-- <br> -->
+  <!-- </p> -->
+  <!-- <p style="font-size: 8pt;"> -->
+  When citing my name, use only <i>Perthuis</i> without <i>de</i>, e.g. <i>`In Noorden&mdash;Perthuis [NP26], the authors etc.'</i>.</p>
 <div class="publications">
 
     {% bibliography -f {{ site.scholar.bibliography }} %}
