@@ -42,3 +42,7 @@
 #   - firstname: ["Chris", "Chris van", "C.", "C. N.", "Chris van Noorden"]
 #     url: https://www.cwi.nl/en/people/chris-van-noorden/
 
+"Engelberts":
+  - firstname: ["Lynn", "L.", "L. E.", "Lynn Engelberts"]
+    url: https://www.cwi.nl/en/people/lynn-engelberts/
+
