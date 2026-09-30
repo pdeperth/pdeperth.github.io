@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Invited talk** about module-lattice reduction models at the [de Cifris](https://www.decifris.it/cifris26) conference in Rome, Italy.
+**Invited talk** about module-lattice reduction models at the [de Cifris conference](https://www.decifris.it/cifris26) in Rome, Italy.
