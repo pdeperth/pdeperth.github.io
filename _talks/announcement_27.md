@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Post-Quantum Anonymous Signatures from the Lattice Isomorphism Group Action [NP26] at the King's College in London.
+Post-Quantum Anonymous Signatures from the Lattice Isomorphism Group Action [NP26] at the King's College in London, United-Kingdom.
