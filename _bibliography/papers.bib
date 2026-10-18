@@ -3,6 +3,25 @@
 
 % @string{aps = {American Physical Society,}}
 
+@unpublished{EPRINT:PerTre25,
+  author      = {{Paola de} Perthuis and Filip Trenki\'c},
+  title       = {How Secure are NTRU+ Keys? Analysing the Best Module Attacks},
+  year        = {2026},
+  month       = {October},
+  selected    = {true},
+  bibtex_show = {true},
+  abbr        = {EPR:PerTre26},
+  abstract    = {A recent analysis of module-BKZ [Ducas–Engleberts–Perthuis, Asiacrypt'25] predicts subexponential speedups for lattice reduction on module lattices over cyclotomic fields whose conductor has small odd prime factors. This threatens NTRU+, the South Korean standard for key encapsulation, and related schemes; however, the short vectors one seeks to find are short in the coefficient geometry, whereas module-BKZ operates in the canonical geometry.
+                 
+                 We introduce relative canonical and relative coefficient embeddings, realising a module over a cyclotomic field $K$ as a module over any subfield $L$, and characterise when the two agree up to scaling: exactly when the radicals of their respective conductors $c$ and $\ell$ satisfy $\mathrm{rad}(c)/\mathrm{rad}(\ell) \in \{1,2\}$. Furthermore we quantify the distortion incurred in general when passing between embeddings, and hence identify the optimal subfield for module-BKZ and BKZ to use.
+                 
+                 Estimating the cost of the best attack with simulation-based models [Perthuis–Trenkić, PQCrypto'26], we find that the best module attack saves only 4–10 blocksizes, costing NTRU+ keys at most three bits of security in the Core-SVP model.
+                 
+                 We further extend the analysis of overstretched NTRU regimes [Ducas–Woerden, Asiacrypt'19] to the module setting, and find the fatigue point is reached sooner than with unstructured counterparts, though NTRU+ parameterisations remain safe.
+                 },
+  website     = {https://eprint.iacr.org/2026}
+}
+
 @inproceedings{SCN:NooPer26,
   author      = {{Chris van} Noorden and {Paola de} Perthuis},
   abstract    = {Post-quantum assumptions may not rely on the difficulty of finding secret subgroups as many classical schemes did. Instead, several assumptions make use of more general group actions, with the belief that quantum algorithms are not helpful in this less structured setting. Famously, some isogeny constructions use the action of an ideal class group on elliptic curves, but equivalence problems in error-correcting codes and lattices also exhibit such structures.
