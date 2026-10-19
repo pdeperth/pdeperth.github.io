@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Predicting Module-Lattice Reduction [DEP25] for Versailles mathematics laboratory.
+Predicting Module-Lattice Reduction [DEP25] for Versailles's Mathematics laboratory.
