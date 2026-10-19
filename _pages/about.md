@@ -2,7 +2,7 @@
 layout: about
 title: # Home
 permalink: /
-subtitle:  Currently a postdoctoral researcher in Cryptology at the <a href='https://www.cwi.nl/en/'>Centrum Wiskunde en Informatica (CWI)</a>, I will soon become *<a href='https://fr.wikipedia.org/wiki/Chercheur_(emploi_titulaire)'>chargée de recherche</a>* at the <a href='https://www.cnrs.fr/en'>CNRS</a> in the <a href='https://www.lix.polytechnique.fr/'>LIX</a>.
+subtitle:  Currently a postdoctoral researcher in Cryptology at the <a href='https://www.cwi.nl/en/'>Centrum Wiskunde en Informatica (CWI)</a>, I will soon become <a href='https://fr.wikipedia.org/wiki/Chercheur_(emploi_titulaire)'>*chargée de recherche*</a> at the <a href='https://www.cnrs.fr/en'>CNRS</a> in the <a href='https://www.lix.polytechnique.fr/'>LIX</a>.
 #  Amsterdam (Netherlands).  # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
